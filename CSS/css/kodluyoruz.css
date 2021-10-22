@@ -1,8 +1,30 @@
+
+/* CSS'de açıklama satırı böyle açılıyor */
+/* CTRL + SHIFT + P = COLOR THEME = VS CODE'un temasını değiştiriyor*/
+
+
+body{
+    /* sayfanın arka plan rengini değiştirir */
+    background-color: darkseagreen;
+    
+    /* yazının fontunu değiştirir */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    /* metnin italik olmasını istediğimiz zaman kullanırız */
+    font-style: italic;
+    
+    /* 1em, mevcut yazı tipi boyutuna eşittir. Tarayıcılarda varsayılan metin boyutu 16 pikseldir. 
+    Yani, 1em'in varsayılan boyutu 16 pikseldir. */
+    /* font-size: 2.5em; */ 
+}
+
 h1{
     color: darkred;
     font-size:64px; 
+    /* başlık etiketindeki (h1, h2, vs.) bütün kelimeleri büyük harf yapar */
+    text-transform: uppercase; 
 }
 p{
     color:dodgerblue;
     font-size:20px;
-}
+} 
