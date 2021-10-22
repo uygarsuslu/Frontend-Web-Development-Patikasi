@@ -1,3 +1,28 @@
+/* class -> .tex-red {} */
+/* id -> #id-bilgisi {} */
+
+
+/* birden fazla etikete aynı özelliği verdik */
+h1, h2, h3, h4, h5, h6 {
+    color: mediumpurple;
+}
+
 .text-red {
     color: red;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+#first-article {
+    font-size: 20px;
 }
