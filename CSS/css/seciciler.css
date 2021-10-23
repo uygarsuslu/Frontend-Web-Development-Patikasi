@@ -1,0 +1,44 @@
+/* ***************************** SELECTORS ***************************** */
+
+/* noktalar arasında boşluk olmadığı zaman bu ikisini yan yana kullanmak zorundayız yoksa çalışmaz */
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
+/* noktalar arasında boşluk olduğu zaman "ul>li" ya da 
+"<h1>lorem <span>lorem" iç içe etiketlerde kullanılır (fw-normal olan yeri color blue yapar!!!!!) */
+.color-blue .fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
+/* sadece birinciyi değiştirir */
+li:first-child {
+    color:green;
+}
+
+/* sadece sonuncuyu değiştirir */
+li:last-child {
+    color:aqua;
+}
+
+/* sadece parantez içine girilen değeri değiştirir */
+li:nth-child(2) {
+    background-color: red;
+}
+
+/* tek sayıları değiştirir */ 
+li:nth-child(odd) {
+    background-color: yellow;
+}
+
+/* çift sayıları değiştirir */
+ul>li:nth-child(even) {
+    background-color: rgb(0, 60, 255);
+}
+
+/* içine yazdığımız sayıya ve yanına yazdığımı "-1 / +1" e göre değişik aralıklarda yazıya etki eder */
+p:nth-child(3n) {
+    color: rgb(0, 60, 255);
+}
