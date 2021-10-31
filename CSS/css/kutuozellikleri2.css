@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    /*margin-left: auto;
+    margin-right: auto;
+    */
+    /* margin: 0 auto 0 auto; */  /* SAAT YÖNÜNDE HAREKET EDER!!!! */ /* yukarı - sağ - aşağı - sol */
+    margin: 50px auto 0; /* yukarısı ve aşağısı 0, sağdan ve soldan auto olsun */
+}
+
+.left-bar{
+    width: 200px;
+    float: left;
+}
+
+.content{
+    width: 800px;
+    float: left;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    /*margin: 10px;*/ /* tek tek gösterimi bu şekilde */ 
+    /*
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    */
+    float: left;
+}
+
+.card{
+    width: 20%;
+    float: left;
+    padding: 5%;
+    background-color: rgb(101, 68, 247);
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.clear{
+    clear:both;
+}
