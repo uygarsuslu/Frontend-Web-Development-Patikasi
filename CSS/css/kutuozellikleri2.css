@@ -9,7 +9,8 @@ body{
     margin-right: auto;
     */
     /* margin: 0 auto 0 auto; */  /* SAAT YÖNÜNDE HAREKET EDER!!!! */ /* yukarı - sağ - aşağı - sol */
-    margin: 50px auto 0; /* yukarısı ve aşağısı 0, sağdan ve soldan auto olsun */
+    margin: 50px auto 0; /*Üst boşluk 50px, sağ ve sol boşluk auto, alt boşluk 0px dir. */
+    /* margin: 0 auto; /* yukarısı ve aşağısı 0, sağdan ve soldan auto olsun */
 }
 
 .left-bar{
