@@ -13,6 +13,10 @@ body{
     /* margin: 0 auto; /* yukarısı ve aşağısı 0, sağdan ve soldan auto olsun */
 }
 
+.gradient{
+    
+}
+
 .left-bar{
     width: 200px;
     float: left;
