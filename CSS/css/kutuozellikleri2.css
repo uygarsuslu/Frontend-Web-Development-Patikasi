@@ -14,7 +14,16 @@ body{
 }
 
 .gradient{
-    
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3); 
+    box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.3);
 }
 
 .left-bar{
@@ -46,7 +55,7 @@ body{
     width: 20%;
     float: left;
     padding: 5%;
-    background-color: rgb(101, 68, 247);
+    background-color: rgb(125, 247, 68);
     margin-right: 3%;
     border-radius: 10px;
 }
