@@ -38,5 +38,5 @@ const bookTable = `
         </tr>
     </tbody>
 </table>
-`
+` 
 document.body.innerHTML = bookTable
