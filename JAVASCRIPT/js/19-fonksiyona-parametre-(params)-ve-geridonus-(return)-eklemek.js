@@ -26,7 +26,7 @@ function greetings2(firstName, lastName){
 }
 
 let greetingsInfo = greetings2("Ad", "Soyad")
-// let info = "deneme" // hata verir daha önce tanımlandığı için //
+// let greetingsInfo = "deneme" // hata verir daha önce tanımlandığı için //
 console.log(greetingsInfo)
 
 // id'si "greeting" olan yerin içine (yani info)
@@ -65,9 +65,9 @@ function daireAlaniHesaplama (r, PI = 3.14)
 var donenSonuc = daireAlaniHesaplama(3); 
 console.log(donenSonuc); // 28.25999999 sonucunu göreceğiz.
 
-// Farklı yarıçaplardaki iki farklı dairenin, alanları çarpımını veren bir fonksiyon yazınız.
-
 /* ********************************************************************************************* */
+
+// Farklı yarıçaplardaki iki farklı dairenin, alanları çarpımını veren bir fonksiyon yazınız.
 
 function daireAlaniHesaplama (r, PI = 3.14) 
 { 
