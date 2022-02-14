@@ -49,11 +49,12 @@ function formHandler(event) {
 
 let userListDOM = document.querySelector("#userList")
 const addItem = (userName, score) => {
-    let liDOM = document.createElement("li")
+    let liDOM = document.createElement("li") // li oluşturduk //
     liDOM.innerHTML = `
         ${userName} 
         <span class="badge bg-primary rounded-pill">${score}</span>
     `
+    // li'ye ekledik //
     liDOM.classList.add("list-group-item", "d-flex", "justify-content-between", "align-items-center")
     userListDOM.append(liDOM) // ul'nin neresine ekleyecegimize karar verdik // 
 }
