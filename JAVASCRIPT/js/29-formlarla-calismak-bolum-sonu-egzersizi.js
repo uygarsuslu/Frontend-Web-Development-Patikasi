@@ -20,7 +20,7 @@ const alertFunction = (title, message, className="warning") => `
 `
 
 function formHandler(event) {
-    event.preventDefault()
+    event.preventDefault() //sayfanın yenilenmesini engellemiş oluyoruz //
 
     const USER_NAME = document.querySelector("#username")
     const SCORE = document.querySelector("#score")
