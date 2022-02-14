@@ -41,5 +41,5 @@ console.log(sports); // basketball, baseball, football, tennis
 var spor = ['basketball', 'football', 'tennis' ];
 console.log(spor); // basketball, football, tennis
 spor.splice(1,1);
-console.log(spor); // basketball, tennis
+console.log(spor); // basketball, tennis 
 
