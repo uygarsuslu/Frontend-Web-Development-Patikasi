@@ -11,3 +11,17 @@ let user1 = {
     }
 }
 console.log(user1.shortName())
+
+
+var birey = {
+    isim: "ali",
+    soyisim: "veli",
+    dogumYili: 1989,
+    merhabaDe: (age) => ` Merhaba, ben ${birey.isim} ${birey.soyisim}, ${age} yasindayim.`,
+}
+
+birey.yasHesapla = function () {
+    return 2021 - this.dogumYili
+}
+
+console.log(birey.merhabaDe(birey.yasHesapla()))
